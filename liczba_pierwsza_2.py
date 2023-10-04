@@ -8,6 +8,5 @@ def is_prime(number):
         return True
 
 
-print(is_prime(11))
 primeNumbers = [number for number in range(0, 101) if is_prime(number)]
 print(primeNumbers)
